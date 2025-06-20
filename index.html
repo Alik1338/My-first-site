@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мир игрушек</title>
+  <style>
+    :root {
+      --bg: #fff8f0;
+      --text: #2c2c2c;
+      --accent: #ff8a5b;
+      --font: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      line-height: 1.6;
+      opacity: 0.85;
+    }
+
+    .button {
+      margin-top: 2rem;
+      display: inline-block;
+      background-color: var(--accent);
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 999px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #e6733e;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      opacity: 0.5;
+    }
+
+    img {
+      margin: 2rem 0;
+      width: 200px;
+      border-radius: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Мир игрушек</h1>
+  <p>Добро пожаловать в наш уютный магазин игрушек! Здесь вы найдёте мягких мишек, конструкторы, куклы и ещё много радости для детей всех возрастов.</p>
+
+  <img src="https://i.pinimg.com/736x/d5/3e/98/d53e9843492fc4e89636503d5ed7f52a.jpg" alt="Игрушки" />
+
+  <a class="button" href="https://github.com/" target="_blank">Посетить GitHub</a>
+
+  <footer>© 2025 Магазин «Мир игрушек»</footer>
+</body>
+</html>
